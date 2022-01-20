@@ -87,3 +87,11 @@ p {
   color: #fabe4c;
   font-weight: 700;
 }
+
+.card-text {
+  font-size: 14px;
+}
+
+.card-container {
+  border-radius: 15px;
+}
