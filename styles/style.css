@@ -4,7 +4,38 @@
    font-family: 'Bebas Neue', cursive;
    font-family: 'Roboto', sans-serif;
 */
+body {
+  font-family: "Roboto", sans-serif;
+}
 
+h1,
+h2 {
+  font-family: "Bebas Neue", cursive;
+}
+h1 {
+  font-size: 80px;
+  line-height: 88px;
+}
+
+h1 span {
+  color: #fabe4c;
+}
+
+p {
+  color: #3e3e3e;
+  font-size: 16px;
+}
+
+.btn-custom {
+  background-color: #a4bc46;
+  border-color: #a4bc46;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.btn-custom .btn-icon {
+  font-size: 22px;
+}
 .navbar,
 .header {
   background-color: #fffbf0;
@@ -19,4 +50,8 @@
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:active {
   color: #a4bc46;
+}
+
+.header-description {
+  font-size: 20px;
 }
