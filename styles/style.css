@@ -11,7 +11,17 @@ body {
 h1,
 h2 {
   font-family: "Bebas Neue", cursive;
+  color: #363958;
+  text-transform: uppercase;
 }
+
+h3 {
+  color: #363958;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
 h1 {
   font-size: 80px;
   line-height: 88px;
@@ -33,9 +43,15 @@ p {
   font-size: 16px;
   letter-spacing: 1px;
 }
+
+.btn-primary:hover {
+  color: #7e9621 !important;
+}
+
 .btn-custom .btn-icon {
   font-size: 22px;
 }
+
 .navbar,
 .header {
   background-color: #fffbf0;
@@ -54,4 +70,10 @@ p {
 
 .header-description {
   font-size: 20px;
+}
+
+.price-and-btn .price {
+  font-size: 36px;
+  color: #fabe4c;
+  font-weight: 700;
 }
