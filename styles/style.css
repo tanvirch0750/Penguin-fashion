@@ -4,6 +4,9 @@
    font-family: 'Bebas Neue', cursive;
    font-family: 'Roboto', sans-serif;
 */
+* {
+  overflow-x: hidden;
+}
 
 body {
   font-family: "Roboto", sans-serif;
