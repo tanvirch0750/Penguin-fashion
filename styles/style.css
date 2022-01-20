@@ -36,16 +36,16 @@ p {
   font-size: 16px;
 }
 
+.border-radius {
+  border-radius: 15px;
+}
+
 .btn-custom {
   background-color: #a4bc46;
   border-color: #a4bc46;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
-}
-
-.btn-primary:hover {
-  color: #7e9621 !important;
 }
 
 .btn-custom .btn-icon {
@@ -61,6 +61,11 @@ p {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: #3c3c3c;
+}
+
+.logo {
+  max-width: 291px;
+  width: 75%;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
